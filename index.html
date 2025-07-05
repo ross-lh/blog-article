@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"></link>
-    <link rel="stylesheet" href="tailwind.css"></link>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="css/tailwind.css"></link>
     <title>Responsive Blog Article</title>
 </head>
 <body>
     <header>
 
-    <nav class="flex flex-row m-5 font-sans font-medium">
+    <nav class="flex flex-row font-sans font-medium m-5">
         <ul class="flex text-indigo-950 w-full space-y-1 space-x-3">
             <li><a href="index.html" class="p-3 rounded-full shadow-lg hover:p-4">Homepage</a></li>
             <li><a href="#" class="p-3 rounded-full shadow-lg hover:p-4">News</a></li>
@@ -23,11 +23,11 @@
         <img src="img/gpu-5090.jpeg" class="flex flex-col rounded-t-[25px]">
         <div class="p-4">
             <header>
-                <div class="flex items-center w-min text-green-800 bg-green-50 px-2 py-0.5 rounded-full border border-solid border-green-200 font-normal text-sm text-center text-green-700">Tech</div>
+                <div class="flex items-center w-min text-green-800 bg-green-50 px-2 py-0.5 rounded-full border border-solid border-green-200 font-normal text-sm text-center">Tech</div>
                 <h1 class="font-semibold mt-1 mb-2 text-lg">How important are GPUs today?</h1>
             </header>
             <p class="mb-4 font-medium text-base text-neutral-600">In the last decade, Video Cards have been used as individual processing units for many reasons besides gaming.</p>
-            <button href="#" class="font-medium text-indigo-700 hover:text-indigo-900">Read more &rarr;</button>
+            <button><a href="#" class="font-medium text-indigo-700 hover:text-indigo-900">Read more &rarr;</a></button>
         </div>
     </article>
 </body>
